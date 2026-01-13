@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Loja Temakeria
 
-## Getting Started
+> ⚠️ **Projeto de Estudo**: Este sistema foi desenvolvido exclusivamente como um projeto de estudo para aprender Next.js e shadcn/ui. Não é um sistema de produção.
 
-First, run the development server:
+## 📋 Sobre o Projeto
 
+Loja Temakeria é uma aplicação web de e-commerce para uma loja de comida japonesa, desenvolvida como projeto de estudo. O sistema permite visualizar produtos (sushi, temaki, combos e bebidas), adicionar itens ao carrinho e realizar checkout com coleta de dados do cliente.
+
+## 🚀 Tecnologias Utilizadas
+
+### Framework e Bibliotecas Principais
+- **[Next.js 16.1.1](https://nextjs.org/)** - Framework React para produção
+- **[React 19.2.3](https://react.dev/)** - Biblioteca JavaScript para interfaces
+- **[TypeScript](https://www.typescriptlang.org/)** - Superset JavaScript com tipagem estática
+
+### UI e Estilização
+- **[shadcn/ui](https://ui.shadcn.com/)** - Componentes de UI construídos com Radix UI e Tailwind CSS
+- **[Tailwind CSS 4](https://tailwindcss.com/)** - Framework CSS utility-first
+- **[Radix UI](https://www.radix-ui.com/)** - Componentes primitivos acessíveis
+- **[Lucide React](https://lucide.dev/)** - Biblioteca de ícones
+- **[next-themes](https://github.com/pacocoursey/next-themes)** - Suporte a tema claro/escuro
+
+### Gerenciamento de Estado e Formulários
+- **[Zustand 5.0.10](https://zustand-demo.pmnd.rs/)** - Biblioteca de gerenciamento de estado leve
+- **[React Hook Form 7.71.0](https://react-hook-form.com/)** - Biblioteca para gerenciamento de formulários
+- **[Zod 4.3.5](https://zod.dev/)** - Validação de schemas TypeScript-first
+- **[@hookform/resolvers](https://github.com/react-hook-form/resolvers)** - Resolvers para React Hook Form
+
+### Outras Dependências
+- **[Sonner](https://sonner.emilkowal.ski/)** - Biblioteca de notificações toast
+- **[class-variance-authority](https://cva.style/)** - Utilitário para variantes de componentes
+- **[clsx](https://github.com/lukeed/clsx)** - Utilitário para construção de classes CSS
+
+## 🛠️ Funcionalidades
+
+- 📦 Catálogo de produtos organizado por categorias (Sushi, Temaki, Combos, Bebidas)
+- 🛒 Carrinho de compras com gerenciamento de quantidade
+- 📝 Formulário de checkout em múltiplas etapas
+- 🌓 Suporte a tema claro/escuro
+- 📱 Interface responsiva
+
+## 📦 Instalação
+
+1. Clone o repositório:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <url-do-repositorio>
+cd loja-temakeria
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Instale as dependências:
+```bash
+pnpm install
+# ou
+npm install
+# ou
+yarn install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Como Executar
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Execute o servidor de desenvolvimento:
 
-## Learn More
+```bash
+pnpm dev
+# ou
+npm run dev
+# ou
+yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+Abra [http://localhost:3000](http://localhost:3000) no navegador para ver o resultado.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Scripts Disponíveis
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- `pnpm dev` - Inicia o servidor de desenvolvimento
+- `pnpm build` - Cria a build de produção
+- `pnpm start` - Inicia o servidor de produção
+- `pnpm lint` - Executa o linter ESLint
 
-## Deploy on Vercel
+## 📚 Aprendizados
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Este projeto foi desenvolvido para estudar:
+- Arquitetura e estrutura de projetos Next.js
+- Integração e uso de componentes shadcn/ui
+- Gerenciamento de estado com Zustand
+- Validação de formulários com React Hook Form e Zod
+- Implementação de temas claro/escuro
+- Estruturação de componentes React modernos
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 Licença
+
+Este é um projeto de estudo e não possui licença específica.
